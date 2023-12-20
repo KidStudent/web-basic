@@ -1,0 +1,197 @@
+// @import '//at.alicdn.com/t/font_2530405_stglsvhhv6e.css';
+@use './iconfont';
+@use '../configureIcons/iconfont' as configureIcons;
+$blue-color: #438CFF;
+$green-color: #12B839;
+$red-color: #CF3939;
+$yellow-color: #DE990F;
+$cambridge-color: #18AFCF;
+.icon-font-size {
+  font-size: 14px !important; /*no*/
+}
+.icon-shanchu3 {
+  color: $red-color;
+  @extend .icon-font-size;
+}
+.icon-peizhi {
+  color: $green-color;
+  @extend .icon-font-size;
+}
+.icon-lijijiance-01{
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-yunhanghuanjingzijian-01{
+  color: $red-color;
+  @extend .icon-font-size;
+}
+.icon-peizhicanshu-01{
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-piliangqianshou{
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-lishijilu-01 {
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-bianji2 {
+  color: $green-color;
+  @extend .icon-font-size;
+}
+.icon-bianjigongdan {
+  color: $green-color;
+  @extend .icon-font-size;
+}
+.icon-bofangshipin {
+  color: $green-color;
+  font-size: 16px;
+  // @extend .icon-font-size;
+}
+.icon-bianjirenwu {
+  color: $green-color;
+  @extend .icon-font-size;
+}
+.icon-chakanchulijieguo-01 {
+  color: $yellow-color;
+}
+.icon-chakanjietu {
+  color: $yellow-color;
+  // @extend .icon-font-size;
+  font-size: 16px;
+}
+.icon-fujian {
+  color: $green-color;
+  font-size: 16px;
+}
+.icon-rengongfujian {
+  color: $cambridge-color;
+  font-size: 16px;
+}
+.icon-lixianjilu {
+  color: $red-color;
+  // @extend .icon-font-size;
+  font-size: 16px;
+}
+.icon-chakanxiangqing {
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-xiafa {
+  color: $green-color;
+}
+.icon-chakangongdan {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-chakanyichangxiangqing {
+  color: $red-color;
+  @extend .icon-font-size;
+}
+.icon-chuli {
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-jiance {
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-guanbi1 {
+  color: $red-color;
+  @extend .icon-font-size;
+}
+.icon-chakanlishiluxiang {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-guanbigongdan {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-fuhejieguo {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-shanchurenwu {
+  color: $red-color;
+  @extend .icon-font-size;
+}
+.icon-yichu1 {
+  color: $red-color;
+  @extend .icon-font-size;
+}
+.icon-qidong {
+  color: $green-color;
+  @extend .icon-font-size;
+}
+.icon-zanting-ivdg {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-shebeidangan {
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-zhongxinzhihang {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-tianbaojilu {
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-a-zu4484 {
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-zhongsheshizhong {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-xinxitongbu {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-zhipai {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-bianjishebei {
+  color: $green-color;
+  @extend .icon-font-size;
+}
+.icon-daimabiao {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-chakantupian {
+  color: $yellow-color;
+  @extend .icon-font-size;
+}
+.icon-tianjiabiaoqian {
+  color: $green-color;
+  @extend .icon-font-size;
+}
+.icon-tianbao {
+  color: $green-color;
+  @extend .icon-font-size;
+}
+
+.icon-warning {
+  background: linear-gradient(180deg, #f58d3d 0%, #b8580d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-shenhe{
+  color: $blue-color;
+  @extend .icon-font-size;
+}
+.icon-budabiao {
+  color: $red-color!important;
+}
+.icon-dabiao {
+  color: #0E8F0E!important;
+}
