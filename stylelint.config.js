@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   plugins: ['stylelint-order', 'stylelint-scss'],
   customSyntax: 'postcss-html',
-  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-standard'],
   rules: {
     'custom-property-pattern': null,
     'selector-class-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',

@@ -10,7 +10,7 @@
     $theme-map: $theme-map !global;
     //判断html的data-skin的属性值  #{}是sass的插值表达式
     //& sass嵌套里的父容器标识   @content是混合器插槽，像vue的slot
-    [qsdi-skin='#{$theme-name}'] & {
+    [web-basic-skin='#{$theme-name}'] & {
       @content;
     }
   }

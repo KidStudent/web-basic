@@ -77,10 +77,10 @@
      *  果不为空的话就将对应获取到的值给到 data-skin
      **/
     if (type) {
-      window.document.documentElement.setAttribute('qsdi-skin', localStorage.getItem('type'));
+      window.document.documentElement.setAttribute('web-basic-skin', localStorage.getItem('type'));
       commonStore.setThemeType(type);
     } else {
-      window.document.documentElement.setAttribute('qsdi-skin', 'dark');
+      window.document.documentElement.setAttribute('web-basic-skin', 'dark');
       commonStore.setThemeType('dark');
     }
   }

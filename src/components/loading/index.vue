@@ -47,7 +47,7 @@
   let bgColor = ref(null);
 
   onMounted(() => {
-    skin.value = document.documentElement.getAttribute(`qsdi-skin`);
+    skin.value = document.documentElement.getAttribute(`web-basic-skin`);
     bgColor.value = skin.value === 'dark' ? '#071B39' : '#fff';
   });
 </script>
@@ -55,10 +55,7 @@
 <style lang="scss" scoped>
   .cover {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    inset: 0;
     z-index: 10;
     margin: auto;
 
@@ -72,10 +69,7 @@
 
   .loading {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    inset: 0;
     z-index: 10;
     margin: auto;
   }

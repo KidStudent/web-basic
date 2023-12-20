@@ -424,7 +424,7 @@
     // 将对应的数据存储到localStorage，方便后续使用
     localStorage.setItem('type', themeType.value);
     // 全局添加样式名称：data-skin，并在localStorage获取对应的样式名称的值。
-    window.document.documentElement.setAttribute('qsdi-skin', localStorage.getItem('type'));
+    window.document.documentElement.setAttribute('web-basic-skin', localStorage.getItem('type'));
     commonStore.setThemeType(themeType.value);
     // this.$util.doEcharts.changeColor();
   }
