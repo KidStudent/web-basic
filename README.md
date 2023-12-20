@@ -73,4 +73,4 @@
 
 ```
 
-详情见 [前端框架文档](http://192.168.1.121:9988)
+详情见 [前端框架文档](https://github.com/KidStudent/web-basic-doc)
