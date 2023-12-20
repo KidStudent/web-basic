@@ -73,4 +73,6 @@
 
 ```
 
-详情见 [前端框架文档](https://github.com/KidStudent/web-basic-doc)
+## 配套保姆级文档
+
+[前端框架文档](https://github.com/KidStudent/web-basic-doc)
